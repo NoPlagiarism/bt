@@ -1,4 +1,4 @@
-﻿name: Release
+name: Release
 
 # manual only kick off
 on:

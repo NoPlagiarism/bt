@@ -30,7 +30,7 @@ jobs:
           cat bin/instructions.md >> final_notes.md
           echo -e "\n\nSHA-256 checksums:\n```" >> final_notes.md
           sha256sum bt-* >> final_notes.md
-          echo -e "```"
+          echo -e "```" >> final_notes.md
           cat final_notes.md
           
 
